@@ -1,0 +1,26 @@
+.sidenav{
+    background-color: blueviolet;
+    width: 27%;
+}
+
+.sidenav a{
+    color: #FFFF;
+    font-size: 1.5rem;
+    margin-top: 8%;
+    /*margin-top: 20px;*/
+}
+
+.sidenav i{
+    /*padding-right: 10px;*/
+    padding-right: 7%;
+}
+
+.container{
+    background-color: lightyellow;
+    height: 90%;
+}
+
+.sidenav .end{
+    position: absolute;
+    bottom: 0%;
+}

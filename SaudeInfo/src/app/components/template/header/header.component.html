@@ -1,0 +1,38 @@
+<mat-toolbar>
+    <mat-toolbar-row class="header">
+        <span class="spacer"></span>
+        <span>
+            <a routerLink="/usuario">
+                <img class="avatar" src="assets/img/avatar.png" alt="avatar">
+            </a>
+        </span>
+        <span class="spacer"></span>
+        <span class="title-group">
+            <a>
+                <i class="material-icons">
+                    elderly
+                </i>
+                Saude&Info+
+                <i class="material-icons">
+                    elderly
+                </i>
+            </a>
+        </span>
+        <span class="spacer"></span>
+        <span>
+            <a routerLink="/home">
+                <img class="logo" src="assets/img/Logo2.png" alt="logo">
+            </a>
+        </span>
+        <span class="spacer"></span>
+    </mat-toolbar-row>
+    <mat-toolbar-row class="header2">
+        <button mat-icon-button (click)="backClick()" *ngIf="!(navService.state.asObservable() | async)">
+            <mat-icon>keyboard_return</mat-icon>
+        </button>
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="toogleNav()">
+            <mat-icon>storage</mat-icon>
+        </button>
+    </mat-toolbar-row>
+</mat-toolbar>

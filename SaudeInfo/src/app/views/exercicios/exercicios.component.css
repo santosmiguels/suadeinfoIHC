@@ -1,0 +1,18 @@
+button{
+    color: #FFF;
+    background-color: blueviolet;
+}
+
+.img{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.content{
+    margin: 5% 10% 3% 10%;
+}
+
+.cards{
+    background-color: lavender;
+    margin-bottom: 30px;
+}

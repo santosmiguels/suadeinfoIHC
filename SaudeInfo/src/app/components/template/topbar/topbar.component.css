@@ -1,0 +1,34 @@
+.header{
+    background-color:lightblue;
+    height: 90px;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo{
+    height: 70px;
+}
+
+.header .title-group{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.header2 .mat-icon{
+    transform: scale(1.5);
+    color: lightyellow;
+    padding: 0 0 1.5% 0;
+}
+
+.header .title-group i{
+    padding-right: 5px;
+    transform: scale(1.5);
+    margin-left: 5px;
+}
+
+.spacer{
+    flex: 1 2 auto;
+}

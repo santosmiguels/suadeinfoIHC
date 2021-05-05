@@ -1,0 +1,52 @@
+.header{
+    /*display: flex;
+    align-items: center;*/
+    background-color:lightblue;
+    height: 90px;
+}
+
+.header2{
+    /*display: flex;
+    align-items: center;*/
+    background-color:blueviolet;
+    height: 50px;
+}
+
+.header a{
+    display: flex;
+    align-items: center;
+}
+
+.header .logo{
+    /*max-height: 70px;*/
+    height: 70px;
+    /*position:absolute;*/
+}
+
+.header .title-group{
+    /*position: absolute;*/
+    font-size: 1.8rem;
+    /*left: 42%;*/
+    /*padding-left: 45px;*/
+    color: black;
+}
+
+.header2 .mat-icon{
+    transform: scale(1.5);
+    color: lightyellow;
+    padding: 0 0 1.5% 0;
+}
+
+.header .title-group i{
+    padding-right: 5px;
+    transform: scale(1.5);
+    margin-left: 5px;
+}
+
+.spacer{
+    flex: 1 2 auto;
+}
+
+.header .avatar{
+    height: 90px;
+}

@@ -1,0 +1,20 @@
+{
+    "RECEITA":
+    [
+        { 
+            "REMEDIO": "Dipirona",
+            "TEMPO": 8,
+            "DURACAO": 10
+        },
+        { 
+            "REMEDIO": "Omeprazol",
+            "TEMPO": 6,
+            "DURACAO": 8
+        },
+        { 
+            "REMEDIO": "Ritalina",
+            "TEMPO": 12,
+            "DURACAO": 5
+        }
+    ]
+}

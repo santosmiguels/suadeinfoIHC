@@ -1,0 +1,22 @@
+<div>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Usuário" [(ngModel)]="usuario.login" name="user">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="usuario.nome" name="nome">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Endereço" [(ngModel)]="usuario.endereco" name="endereco">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="E-mail" [(ngModel)]="usuario.email" name="email">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="atualizarUsu()" color="primary">
+        Atualizar Dados
+    </button>
+</div>
+
+

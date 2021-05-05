@@ -1,0 +1,46 @@
+<app-header></app-header>
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="over" [opened]="opened$ | async"><!-- fixedInViewport="true" fixedTopGap="72"-->
+        <mat-nav-list class="nav-list" (click)="toggle()">
+            <a mat-list-item routerLink="/usuario">
+                <i class="material-icons">
+                    manage_accounts
+                </i>
+                Conta
+            </a>
+            <a mat-list-item routerLink="/alarmes">
+                <i class="material-icons">
+                    alarm
+                </i>
+                Alarmes
+            </a>
+            <a mat-list-item>
+                <i class="material-icons">
+                    build
+                </i>
+                Ajustes
+            </a>
+            <a mat-list-item>
+                <i class="material-icons">
+                    share
+                </i>
+                Compartilhar
+            </a>
+            <a mat-list-item routerLink="/ajuda">
+                <i class="material-icons">
+                    help
+                </i>
+                Ajuda
+            </a>
+            <a mat-list-item routerLink="/" class="end">
+                <i class="material-icons">
+                    logout
+                </i>
+                Sair
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <!--<mat-sidenav-content class="content">-->
+        <router-outlet class="container"></router-outlet>
+    <!--</mat-sidenav-content>-->
+</mat-sidenav-container>

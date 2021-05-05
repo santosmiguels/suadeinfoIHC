@@ -1,0 +1,1 @@
+dar um npm start no terminal para subir o json server

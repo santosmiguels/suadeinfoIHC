@@ -1,0 +1,30 @@
+.home{
+    background-color:lightblue;
+    margin-bottom: 30px;
+    height: 50px;
+}
+
+.content{
+    margin: 30px 15% 30px 15%;
+}
+
+.home .title{
+    font-size: 1.7rem;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 2%;
+    /*margin-left: 8%;*/
+}
+
+.home .icon{
+    transform: scale(3);
+    padding-right: 10px;
+}
+
+.home i{
+    color: black;
+    position: absolute;
+    left: 0;
+    margin-left: 10%;
+}
+
